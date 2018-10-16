@@ -1337,6 +1337,9 @@
 		E65219F91B8D10C2000B1217 /* ReaderBlockedSiteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E65219F81B8D10C2000B1217 /* ReaderBlockedSiteCell.xib */; };
 		E65219FB1B8D10DA000B1217 /* ReaderBlockedSiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65219FA1B8D10DA000B1217 /* ReaderBlockedSiteCell.swift */; };
 		E663D1901C65383E0017F109 /* SharingAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E663D18F1C65383E0017F109 /* SharingAccountViewController.swift */; };
+		E6673CA42167E7BE0012C8E3 /* JetpackServiceRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6673CA32167E7BE0012C8E3 /* JetpackServiceRemote.swift */; };
+		E6673CA62167E7E10012C8E3 /* JetpackServiceRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6673CA52167E7E10012C8E3 /* JetpackServiceRemoteTests.swift */; };
+		E6673CA82167E8D70012C8E3 /* JetpackInstallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6673CA72167E8D70012C8E3 /* JetpackInstallViewController.swift */; };
 		E66969C81B9E0A6800EC9C00 /* ReaderTopicServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66969C71B9E0A6800EC9C00 /* ReaderTopicServiceTest.swift */; };
 		E66969CD1B9E2EBF00EC9C00 /* SafeReaderTopicToReaderTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = E66969CC1B9E2EBF00EC9C00 /* SafeReaderTopicToReaderTopic.m */; };
 		E66969DA1B9E55AB00EC9C00 /* ReaderTopicToReaderTagTopic37to38.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66969D91B9E55AB00EC9C00 /* ReaderTopicToReaderTagTopic37to38.swift */; };
@@ -3204,6 +3207,9 @@
 		E65219F81B8D10C2000B1217 /* ReaderBlockedSiteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReaderBlockedSiteCell.xib; sourceTree = "<group>"; };
 		E65219FA1B8D10DA000B1217 /* ReaderBlockedSiteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderBlockedSiteCell.swift; sourceTree = "<group>"; };
 		E663D18F1C65383E0017F109 /* SharingAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingAccountViewController.swift; sourceTree = "<group>"; };
+		E6673CA32167E7BE0012C8E3 /* JetpackServiceRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetpackServiceRemote.swift; sourceTree = "<group>"; };
+		E6673CA52167E7E10012C8E3 /* JetpackServiceRemoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetpackServiceRemoteTests.swift; sourceTree = "<group>"; };
+		E6673CA72167E8D70012C8E3 /* JetpackInstallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetpackInstallViewController.swift; sourceTree = "<group>"; };
 		E66969C71B9E0A6800EC9C00 /* ReaderTopicServiceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderTopicServiceTest.swift; sourceTree = "<group>"; };
 		E66969CB1B9E2EBF00EC9C00 /* SafeReaderTopicToReaderTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SafeReaderTopicToReaderTopic.h; path = "20-21/SafeReaderTopicToReaderTopic.h"; sourceTree = "<group>"; };
 		E66969CC1B9E2EBF00EC9C00 /* SafeReaderTopicToReaderTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SafeReaderTopicToReaderTopic.m; path = "20-21/SafeReaderTopicToReaderTopic.m"; sourceTree = "<group>"; };
@@ -3826,7 +3832,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA = {
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
 				F14B5F6F208E648200439554 /* config */,
@@ -5074,6 +5080,7 @@
 				5DA5BF4918E32DDB005F11F9 /* Themes */,
 				B53AD9B31BE9560F009AB87E /* Tools */,
 				031662E60FFB14C60045D052 /* Views */,
+				E6673CA32167E7BE0012C8E3 /* JetpackServiceRemote.swift */,
 			);
 			path = ViewRelated;
 			sourceTree = "<group>";
@@ -6549,6 +6556,7 @@
 				BE20F5E11B2F738E0020694C /* ViewRelated */,
 				FF9839A71CD3960600E85258 /* WordPressAPI */,
 				E6A216911DCE851000E7DF73 /* WPRichText */,
+				E6673CA52167E7E10012C8E3 /* JetpackServiceRemoteTests.swift */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -6854,6 +6862,7 @@
 			isa = PBXGroup;
 			children = (
 				E1F391EE1FF25E0C00DB32A3 /* JetpackConnectionWebViewController.swift */,
+				E6673CA72167E8D70012C8E3 /* JetpackInstallViewController.swift */,
 			);
 			path = Jetpack;
 			sourceTree = "<group>";
@@ -7452,7 +7461,7 @@
 				bg,
 				sk,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -8609,6 +8618,7 @@
 				B532D4EE199D4418006E4DF6 /* NoteBlockImageTableViewCell.swift in Sources */,
 				93FA59DD18D88C1C001446BC /* PostCategoryService.m in Sources */,
 				08D345511CD7F50900358E8C /* MenusSelectionItem.m in Sources */,
+				E6673CA42167E7BE0012C8E3 /* JetpackServiceRemote.swift in Sources */,
 				E62AFB6D1DC8E593007484FC /* WPTextAttachment.swift in Sources */,
 				D88A6494208D7AD0008AE9BC /* DefaultStockPhotosService.swift in Sources */,
 				E1BEEC631C4E35A8000B4FA0 /* Animator.swift in Sources */,
@@ -9229,6 +9239,7 @@
 				1797373720EBAA4100377B4E /* RouteMatcherTests.swift in Sources */,
 				B5416CFE1C1756B900006DD8 /* PushNotificationsManagerTests.m in Sources */,
 				59B48B621B99E132008EBB84 /* JSONLoader.swift in Sources */,
+				E6673CA62167E7E10012C8E3 /* JetpackServiceRemoteTests.swift in Sources */,
 				E180BD4C1FB462FF00D0D781 /* CookieJarTests.swift in Sources */,
 				9363113F19FA996700B0C739 /* AccountServiceTests.swift in Sources */,
 				D88A649C208D7D81008AE9BC /* StockPhotosDataSourceTests.swift in Sources */,
@@ -9241,6 +9252,7 @@
 				93EF094C19ED533500C89770 /* ContextManagerTests.swift in Sources */,
 				D800D87820999B6D00E7C7E5 /* LikedMenuItemCreatorTests.swift in Sources */,
 				D816B8CA2112D2FD0052CE4D /* LocalNewsServiceTests.swift in Sources */,
+				E6673CA82167E8D70012C8E3 /* JetpackInstallViewController.swift in Sources */,
 				D800D87A20999C0500E7C7E5 /* OtherMenuItemCreatorTests.swift in Sources */,
 				B5552D821CD1061F00B26DF6 /* StringExtensionsTests.swift in Sources */,
 				08AAD6A11CBEA610002B2418 /* MenusServiceTests.m in Sources */,
@@ -10510,7 +10522,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
-				WPCOM_CONFIG = "$HOME/.wpcom_alpha_app_credentials";
+				WPCOM_CONFIG = $HOME/.wpcom_alpha_app_credentials;
 			};
 			name = "Release-Alpha";
 		};
@@ -10992,7 +11004,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
-				WPCOM_CONFIG = "$HOME/.wpcom_internal_app_credentials";
+				WPCOM_CONFIG = $HOME/.wpcom_internal_app_credentials;
 			};
 			name = "Release-Internal";
 		};
@@ -11341,7 +11353,7 @@
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
-				WPCOM_CONFIG = "$HOME/.wpcom_app_credentials";
+				WPCOM_CONFIG = $HOME/.wpcom_app_credentials;
 			};
 			name = Debug;
 		};
@@ -11394,7 +11406,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
-				WPCOM_CONFIG = "$HOME/.wpcom_app_credentials";
+				WPCOM_CONFIG = $HOME/.wpcom_app_credentials;
 			};
 			name = Release;
 		};
